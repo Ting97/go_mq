@@ -2,7 +2,10 @@ module producer
 
 go 1.17
 
-require github.com/apache/pulsar-client-go v0.9.0
+require (
+	github.com/apache/pulsar-client-go v0.9.0
+	github.com/robfig/cron v1.2.0
+)
 
 require (
 	github.com/99designs/go-keychain v0.0.0-20191008050251-8e49817e8af4 // indirect
